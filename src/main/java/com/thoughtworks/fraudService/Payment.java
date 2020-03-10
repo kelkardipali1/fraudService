@@ -16,7 +16,6 @@ public class Payment {
 
     public Payment(int amount, BankDetails beneficiary, BankDetails payee) {
         this.amount = amount;
-        System.out.println("beneficiary " + beneficiary.toString());
         this.beneficiaryName = beneficiary.getName();
         this.beneficiaryAccountNumber = beneficiary.getAccountNumber();
         this.beneficiaryIfscCode = beneficiary.getIfscCode();
